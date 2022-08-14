@@ -1,0 +1,15 @@
+GET http://localhost:7000/music
+
+###
+GET http://localhost:7000/music/1
+
+###
+POST http://localhost:7000/music
+Content-Type: application/json
+
+{
+    "judul" : "halo",
+    "artis" : "halo",
+    "album" : "halo",
+    "date"  : "halo",
+}
